@@ -1,0 +1,18 @@
+{
+  "name": "apisetup",
+  "version": "1.0.0",
+  "description": "project will be used for api testing and development",
+  "main": "exp_cnt.js",
+  "scripts": {
+    "start": "nodemon exp_cnt.js",
+    "dev": "nodemon exp_cnt.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.3"
+  }
+}
