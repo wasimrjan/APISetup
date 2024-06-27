@@ -5,7 +5,7 @@
   "main": "exp_cnt.js",
   "scripts": {
     "start": "nodemon exp_cnt.js",
-    "dev": "nodemon exp_cnt.js",
+    "dev": "nodemon mysql.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
