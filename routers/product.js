@@ -2,6 +2,7 @@ const express = require('express');
 const product = new require('../controllers/product');
 const router = express.Router();
 
+
 router
 .get('/',product.ProudctList)
 .get('/:id',product.ProudctShow)

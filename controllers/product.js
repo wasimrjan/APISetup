@@ -1,8 +1,6 @@
 
 var mysql = require('mysql');
 
-
-
 exports.ProudctShow = (req,res)=>{
   var roll = req.params.id;
 
